@@ -10,7 +10,7 @@
     "minimum-stability": "dev",
     "type": "composer-plugin",
     "extra": {
-        "class": "Yoke\\Composer\\TemplateInstallerPlugin"
+        "class": "Yoke\\Composer\\InstallerPlugin"
     },
     "require": {
         "composer-plugin-api": "^1.0"
