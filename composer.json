@@ -9,6 +9,9 @@
     ],
     "minimum-stability": "dev",
     "type": "composer-plugin",
+    "autoload": {
+        "psr-0": {"Yoke\\Composer": "src/"}
+    },
     "extra": {
         "class": "Yoke\\Composer\\InstallerPlugin"
     },
